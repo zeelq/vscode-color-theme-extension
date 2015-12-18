@@ -1,0 +1,50 @@
+/**
+ * vscode color theme extension
+ * @author hiwangchi@gmail.com
+ */
+
+
+/* Solarized Dark Start */
+
+/*
+no activitybar
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .activitybar {
+  display: none;
+  width: 0;
+  min-width: 0;
+}
+
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .sidebar {
+  left: 0 !important;
+}
+
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .editor {
+  left: 276px !important;
+}*/
+
+
+
+/* renderWhitespac styles */
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-editor.vs-dark.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .token.whitespace {
+  color: rgba(227, 228, 226, .16) !important;
+  font-size: 12px;
+}
+
+/* file explore background */
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench.vs-dark {
+  background: #00212B !important;
+}
+
+/* file explore file styles */
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-tree .monaco-tree-row.selected:not(.highlighted),
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-tree .monaco-tree-row.focused:not(.highlighted),
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-tree .monaco-tree-row:hover {
+  background: #002B36 !important;
+}
+
+/* activitybar */
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench.vs-dark>.activitybar>.content {
+  background: #002b37 !important;
+}
+
+/* Solarized Dark End */
