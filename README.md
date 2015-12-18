@@ -12,7 +12,9 @@ Solarized Dark
 Clone the repository using the command below:
 
 ```
-https://github.com/wangchi/vscode-color-theme-extension ~/.vscode/
+cd /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/extensions
+
+git clone https://github.com/wangchi/vscode-color-theme-extension vscode-color-theme-extension
 ```
 
 ### Activating the theme
@@ -22,7 +24,7 @@ Open VS Code sourse code:
 Mac OS:
 
 ```
-cd /Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/electron-browser
+cd /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/workbench/electron-browser
 
 vi index.html
 ```
@@ -33,7 +35,7 @@ Then append `link` tag to `head`, such as:
 ...
 <head>
 ...
-  <link rel="stylesheet" type="text/css" href="~/.vscode/vscode-color-theme-extension/color-theme-extension.css">
+  <link rel="stylesheet" type="text/css" href="file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/extensions/vscode-color-theme-extension/color-theme-extension.css">
 </head>
 ...
 ```
