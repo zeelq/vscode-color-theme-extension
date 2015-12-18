@@ -12,7 +12,7 @@ Solarized Dark
 Clone the repository using the command below:
 
 ```
-cd /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/extensions
+cd /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/out/vs/workbench/
 
 git clone https://github.com/wangchi/vscode-color-theme-extension vscode-color-theme-extension
 ```
@@ -35,7 +35,7 @@ Then append `link` tag to `head`, such as:
 ...
 <head>
 ...
-  <link rel="stylesheet" type="text/css" href="file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/extensions/vscode-color-theme-extension/color-theme-extension.css">
+  <link rel="stylesheet" type="text/css" href="file:///Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/vscode-color-theme-extension/color-theme-extension.css">
 </head>
 ...
 ```

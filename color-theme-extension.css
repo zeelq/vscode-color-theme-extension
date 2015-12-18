@@ -47,4 +47,8 @@ no activitybar
   background: #002b37 !important;
 }
 
+/* statusbar */
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench>.part.statusbar {
+  background: #007acc !important;
+}
 /* Solarized Dark End */
