@@ -31,7 +31,8 @@ no activitybar
 }
 
 /* file explore background */
-.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench.vs-dark {
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench,
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench > .sidebar > .title > .title-actions {
   background: #00212B !important;
 }
 
@@ -43,12 +44,12 @@ no activitybar
 }
 
 /* activitybar */
-.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench.vs-dark>.activitybar>.content {
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench > .activitybar > .content {
   background: #002b37 !important;
 }
 
 /* statusbar */
-.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench>.part.statusbar {
+.vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench > .part.statusbar {
   background: #007acc !important;
 }
 /* Solarized Dark End */
