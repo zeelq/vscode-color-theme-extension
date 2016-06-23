@@ -5,7 +5,12 @@
 Solarized Dark
 ![image](./assets/solarized-dark.png)
 
+One Dark
+![image](./assets/one-dark.png)
+
 ## Usage
+
+At first, you should change color theme to Solarized Dark or One Dark.
 
 ### Using Git
 

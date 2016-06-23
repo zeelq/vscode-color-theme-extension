@@ -50,6 +50,43 @@ no activitybar
 
 /* statusbar */
 .vscode-theme-solarized-dark-themes-Solarized-dark-tmTheme .monaco-workbench > .part.statusbar {
-  background: #007acc !important;
+  border-top: 1px solid #00212B;
+  background: #06181E !important;
 }
 /* Solarized Dark End */
+
+
+
+/* One Dark Start */
+
+/* renderWhitespac styles */
+/* use default */
+/*.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-editor.vs-dark.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .token.whitespace {
+  color: rgba(227, 228, 226, .16) !important;
+  font-size: 12px;
+}*/
+
+/* file explore background */
+.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-workbench,
+.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-workbench > .sidebar > .title > .title-actions {
+  background: #191C21 !important;
+}
+
+/* file explore file styles */
+.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-tree .monaco-tree-row.selected:not(.highlighted),
+.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-tree .monaco-tree-row.focused:not(.highlighted),
+.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-tree .monaco-tree-row:hover {
+  background: #131418 !important;
+}
+
+/* activitybar */
+.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-workbench > .activitybar > .content {
+  background: #1E2128 !important;
+}
+
+/* statusbar */
+.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-workbench > .part.statusbar {
+  border-top: 1px solid #131418;
+  background: #191B20 !important;
+}
+/* One Dark End */
