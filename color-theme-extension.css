@@ -76,12 +76,17 @@ no activitybar
 .akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-tree .monaco-tree-row.selected:not(.highlighted),
 .akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-tree .monaco-tree-row.focused:not(.highlighted),
 .akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-tree .monaco-tree-row:hover {
-  background: #131418 !important;
+  background: #252831 !important;
+}
+
+/* file explore file selected */
+.akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-tree .monaco-tree-row.selected {
+  border-left: 2px solid #4d71ff;
 }
 
 /* activitybar */
 .akamud-vscode-theme-onedark-themes-One-20Dark-tmTheme .monaco-workbench > .activitybar > .content {
-  background: #1E2128 !important;
+  background: rgba(40, 44, 52, 1) !important;
 }
 
 /* statusbar */
